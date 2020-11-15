@@ -1,2 +1,0 @@
-# Alcatel
-OXO / OXE

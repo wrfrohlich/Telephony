@@ -1,0 +1,655 @@
+//-------------------  Log Call Out SIP Trunk  -------------------//
+//
+//	Name: Eng. William da Rosa Fröhlich
+//
+//---------------------------------------------------------------//
+
+ [56994]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>]                 para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1001)
+ [56995]SIPCall - Autorizacao requer senha. (hnd=1001)
+ [57007]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.16                .1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [57007]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTER                NO.
+ [57007]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Handl                eTemp=[0x1002]
+ [57007]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[0                x1002]
+ [57007]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema,                 com destino=[035998600]. Handle=[0x2e]
+ [57498]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor e                sta sendo utilizado para identificar e autenticar a ligacao.
+ [57498]SIPCall - Media Gateway=[0xe] alocado com sucesso para elemento=[tI27f].
+ [57498]SIPCall - Media Gateway=[0xd] alocado com sucesso para elemento=[8600].
+ [57498]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino [                5135998600].
+ [60230]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [60230]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [60230]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [60230]SIPCall - Media Gateway=[0xd] liberado com sucesso. Ocupante=[8600].
+ [60230]SIPCall - Media Gateway=[0xe] liberado com sucesso. Ocupante=[tI27f].
+ [60230]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[H                ang up].
+ [60230]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [60230]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[H                ang up].
+ [60230]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [60230]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [60230]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [110149]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1003)
+ [110149]SIPCall - Autorizacao requer senha. (hnd=1003)
+ [110166]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [110166]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [110166]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1004]
+ [110167]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1004]
+ [110167]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [110660]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [110660]SIPCall - Media Gateway=[0xc] alocado com sucesso para elemento=[tI27f]                .
+ [110660]SIPCall - Media Gateway=[0xb] alocado com sucesso para elemento=[8600].
+ [110660]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+ [113379]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [113379]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [113379]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [113380]SIPCall - Media Gateway=[0xb] liberado com sucesso. Ocupante=[8600].
+ [113380]SIPCall - Media Gateway=[0xc] liberado com sucesso. Ocupante=[tI27f].
+ [113380]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [113380]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [113380]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [113380]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [113380]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [113380]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [141929]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [141930]SIPCall - Media Gateway=[0xa] alocado com sucesso para elemento=[tI27f]                .
+ [141930]SIPCall - Chamada de saida de [200] para provedor SIP [1] com destino [                5135998600].
+ [143504]SIPCall - Media Gateway=[0xa] liberado com sucesso. Ocupante=[tI27f].
+ [143504]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [143504]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [143504]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [143504]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [143504]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [143504]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [147497]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1005)
+ [147497]SIPCall - Autorizacao requer senha. (hnd=1005)
+ [147517]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [147517]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [147517]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1006]
+ [147517]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1006]
+ [147517]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [148012]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [148012]SIPCall - Media Gateway=[0x9] alocado com sucesso para elemento=[tI27f]                .
+ [148012]SIPCall - Media Gateway=[0x8] alocado com sucesso para elemento=[8600].
+ [148012]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+ [150730]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [150730]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [150730]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [150730]SIPCall - Media Gateway=[0x8] liberado com sucesso. Ocupante=[8600].
+ [150730]SIPCall - Media Gateway=[0x9] liberado com sucesso. Ocupante=[tI27f].
+ [150730]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [150730]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [150730]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [150730]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [150730]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [150731]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [152132]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1007)
+ [152132]SIPCall - Autorizacao requer senha. (hnd=1007)
+ [152144]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [152145]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [152145]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1008]
+ [152145]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1008]
+ [152145]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [152637]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [152637]SIPCall - Media Gateway=[0x7] alocado com sucesso para elemento=[tI27f]                .
+ [152637]SIPCall - Media Gateway=[0x6] alocado com sucesso para elemento=[8600].
+ [152637]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+ [155358]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [155358]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [155358]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [155358]SIPCall - Media Gateway=[0x6] liberado com sucesso. Ocupante=[8600].
+ [155358]SIPCall - Media Gateway=[0x7] liberado com sucesso. Ocupante=[tI27f].
+ [155359]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [155359]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [155359]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [155359]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [155359]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [155359]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [160602]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1009)
+ [160602]SIPCall - Autorizacao requer senha. (hnd=1009)
+ [160616]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [160616]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [160616]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x100a]
+ [160616]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x100a]
+ [160616]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [161106]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [161106]SIPCall - Media Gateway=[0x5] alocado com sucesso para elemento=[tI27f]                .
+ [161106]SIPCall - Media Gateway=[0x4] alocado com sucesso para elemento=[8600].
+ [161106]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [163829]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [163829]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [163829]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [163829]SIPCall - Media Gateway=[0x4] liberado com sucesso. Ocupante=[8600].
+ [163829]SIPCall - Media Gateway=[0x5] liberado com sucesso. Ocupante=[tI27f].
+ [163829]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [163829]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [163829]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [163829]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [163829]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [163829]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [164491]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=100b)
+ [164491]SIPCall - Autorizacao requer senha. (hnd=100b)
+ [164503]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [164504]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [164504]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x100c]
+ [164504]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x100c]
+ [164504]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [164994]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [164994]SIPCall - Media Gateway=[0x3] alocado com sucesso para elemento=[tI27f]                .
+ [164994]SIPCall - Media Gateway=[0x2] alocado com sucesso para elemento=[8600].
+ [164994]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [167716]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [167717]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [167717]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [167717]SIPCall - Media Gateway=[0x2] liberado com sucesso. Ocupante=[8600].
+ [167717]SIPCall - Media Gateway=[0x3] liberado com sucesso. Ocupante=[tI27f].
+ [167717]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [167717]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [167717]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [167717]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [167717]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [167717]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [167998]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=100d)
+ [167998]SIPCall - Autorizacao requer senha. (hnd=100d)
+ [168010]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [168010]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [168010]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x100e]
+ [168010]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x100e]
+ [168010]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [168321]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [168321]SIPCall - Media Gateway=[0x1] alocado com sucesso para elemento=[tI27f]                .
+ [168321]SIPCall - Chamada de saida de [200] para provedor SIP [1] com destino [                5135998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [168502]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [168502]SIPCall - Media Gateway=[0x0] alocado com sucesso para elemento=[tI27e]                .
+ [168502]SIPCall - Media Gateway=[0xf] alocado com sucesso para elemento=[8600].
+ [168502]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [171223]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [171223]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [171223]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [171223]SIPCall - Media Gateway=[0xf] liberado com sucesso. Ocupante=[8600].
+ [171224]SIPCall - Media Gateway=[0x0] liberado com sucesso. Ocupante=[tI27e].
+ [171224]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [171224]SIPCall - Tronco IP=[tI27e] desligado em situacao terminal .
+ [171224]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [171224]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [171224]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [171224]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [172075]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=100f)
+ [172075]SIPCall - Autorizacao requer senha. (hnd=100f)
+ [172096]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [172096]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [172096]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1010]
+ [172096]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1010]
+ [172096]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [172280]SIPCall - Media Gateway=[0x1] liberado com sucesso. Ocupante=[tI27f].
+ [172280]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [172280]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [172280]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [172281]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [172281]SIPCall - Chamada de entrada a partir do ID 0x27f foi IMPEDIDA mas sem                 motivos de suspeicao (Codigo=6). Qualquer alerta sobres seu IP de origem foi bai                xado.
+ [172281]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [172281]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [172588]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [172588]SIPCall - Media Gateway=[0xd] alocado com sucesso para elemento=[tI27e]                .
+ [172588]SIPCall - Media Gateway=[0xe] alocado com sucesso para elemento=[8600].
+ [172588]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [175309]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [175309]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [175309]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [175310]SIPCall - Media Gateway=[0xe] liberado com sucesso. Ocupante=[8600].
+ [175310]SIPCall - Media Gateway=[0xd] liberado com sucesso. Ocupante=[tI27e].
+ [175310]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [175310]SIPCall - Tronco IP=[tI27e] desligado em situacao terminal .
+ [175310]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [175310]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [175310]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [175310]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [179313]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1011)
+ [179313]SIPCall - Autorizacao requer senha. (hnd=1011)
+ [179325]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [179325]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [179325]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1012]
+ [179326]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1012]
+ [179326]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [179820]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [179820]SIPCall - Media Gateway=[0xb] alocado com sucesso para elemento=[tI27f]                .
+ [179820]SIPCall - Media Gateway=[0xc] alocado com sucesso para elemento=[8600].
+ [179820]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [5135998600].
+ [182539]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [182539]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [182539]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [182539]SIPCall - Media Gateway=[0xc] liberado com sucesso. Ocupante=[8600].
+ [182539]SIPCall - Media Gateway=[0xb] liberado com sucesso. Ocupante=[tI27f].
+ [182539]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [182539]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [182539]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [182540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [182540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [182540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [205796]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1013)
+ [205796]SIPCall - Autorizacao requer senha. (hnd=1013)
+ [205811]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [205811]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [205811]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1014]
+ [205811]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1014]
+ [205811]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [206305]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [206305]SIPCall - Media Gateway=[0xa] alocado com sucesso para elemento=[tI27f]                .
+ [206305]SIPCall - Media Gateway=[0x8] alocado com sucesso para elemento=[8600].
+ [206305]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [208084]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [208084]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [208084]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [208084]SIPCall - Media Gateway=[0x8] liberado com sucesso. Ocupante=[8600].
+ [208084]SIPCall - Media Gateway=[0xa] liberado com sucesso. Ocupante=[tI27f].
+ [208084]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [208085]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [208085]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [208085]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [208085]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [208085]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [208166]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1015)
+ [208166]SIPCall - Autorizacao requer senha. (hnd=1015)
+ [208178]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [208178]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [208178]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1016]
+ [208178]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1016]
+ [208178]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [208669]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [208669]SIPCall - Media Gateway=[0x9] alocado com sucesso para elemento=[tI27f]                .
+ [208670]SIPCall - Media Gateway=[0x6] alocado com sucesso para elemento=[8600].
+ [208670]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [210740]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [210740]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [210741]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [210741]SIPCall - Media Gateway=[0x6] liberado com sucesso. Ocupante=[8600].
+ [210741]SIPCall - Media Gateway=[0x9] liberado com sucesso. Ocupante=[tI27f].
+ [210741]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [210741]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [210741]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [210741]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [210741]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [210741]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [210832]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1017)
+ [210832]SIPCall - Autorizacao requer senha. (hnd=1017)
+ [210844]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [210844]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [210844]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1018]
+ [210845]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1018]
+ [210845]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [211337]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [211337]SIPCall - Media Gateway=[0x7] alocado com sucesso para elemento=[tI27f]                .
+ [211337]SIPCall - Media Gateway=[0x4] alocado com sucesso para elemento=[8600].
+ [211337]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [214057]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [214057]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [214058]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [214058]SIPCall - Media Gateway=[0x4] liberado com sucesso. Ocupante=[8600].
+ [214058]SIPCall - Media Gateway=[0x7] liberado com sucesso. Ocupante=[tI27f].
+ [214058]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [214058]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [214058]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [214058]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [214058]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [214058]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [214589]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1019)
+ [214589]SIPCall - Autorizacao requer senha. (hnd=1019)
+ [214601]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [214601]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [214601]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x101a]
+ [214601]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x101a]
+ [214601]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [215038]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [215038]SIPCall - Media Gateway=[0x5] alocado com sucesso para elemento=[tI27f]                .
+ [215038]SIPCall - Chamada de saida de [200] para provedor SIP [1] com destino [                992323108].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [215093]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [215093]SIPCall - Media Gateway=[0x2] alocado com sucesso para elemento=[tI27e]                .
+ [215093]SIPCall - Media Gateway=[0x3] alocado com sucesso para elemento=[8600].
+ [215093]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+[sip_engine] >>>>> Invite authorization failed (Cod -2)
+ [217814]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [217814]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [217814]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [217814]SIPCall - Media Gateway=[0x3] liberado com sucesso. Ocupante=[8600].
+ [217814]SIPCall - Media Gateway=[0x2] liberado com sucesso. Ocupante=[tI27e].
+ [217815]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [217815]SIPCall - Tronco IP=[tI27e] desligado em situacao terminal .
+ [217815]SIPCall - Sistema comanda desligamento para tronco IP=[tI27e], motivo=[                Hang up].
+ [217815]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [217815]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [217815]SIPCall - Paralizacao de canal de voz. Handle=[0x27e]
+ [218539]SIPCall - Media Gateway=[0x5] liberado com sucesso. Ocupante=[tI27f].
+ [218540]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [218540]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [218540]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [218540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [218540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [218540]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [218926]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=101b)
+ [218926]SIPCall - Autorizacao requer senha. (hnd=101b)
+ [218939]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [218939]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [218939]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x101c]
+ [218939]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x101c]
+ [218939]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [219432]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [219432]SIPCall - Media Gateway=[0xf] alocado com sucesso para elemento=[tI27f]                .
+ [219432]SIPCall - Media Gateway=[0x0] alocado com sucesso para elemento=[8600].
+ [219432]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+ [222152]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [222152]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [222152]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [222152]SIPCall - Media Gateway=[0x0] liberado com sucesso. Ocupante=[8600].
+ [222152]SIPCall - Media Gateway=[0xf] liberado com sucesso. Ocupante=[tI27f].
+ [222153]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [222153]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [222153]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [222153]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [222153]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [222153]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [227866]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=101d)
+ [227866]SIPCall - Autorizacao requer senha. (hnd=101d)
+ [227879]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [227879]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [227879]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x101e]
+ [227879]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x101e]
+ [227879]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [228373]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [228374]SIPCall - Media Gateway=[0x1] alocado com sucesso para elemento=[tI27f]                .
+ [228374]SIPCall - Media Gateway=[0xe] alocado com sucesso para elemento=[8600].
+ [228374]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+ [231092]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [231092]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [231092]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [231092]SIPCall - Media Gateway=[0xe] liberado com sucesso. Ocupante=[8600].
+ [231092]SIPCall - Media Gateway=[0x1] liberado com sucesso. Ocupante=[tI27f].
+ [231092]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [231092]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [231092]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [231092]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [231093]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [231093]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [266102]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [266102]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [266102]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up].                 Handle=[0x2e]
+ [266102]SIPCall - Media Gateway=[0x6] liberado com sucesso. Ocupante=[8600].
+ [266102]SIPCall - Media Gateway=[0xa] liberado com sucesso. Ocupante=[tI27f].
+ [266102]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [266102]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [266102]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[                Hang up].
+ [266102]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [266102]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [266102]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [271076]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>                ] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1025)
+ [271076]SIPCall - Autorizacao requer senha. (hnd=1025)
+ [271088]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.1                6.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [271088]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTE                RNO.
+ [271088]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. Hand                leTemp=[0x1026]
+ [271088]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[                0x1026]
+ [271088]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema                , com destino=[035998600]. Handle=[0x2e]
+ [271582]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor                 esta sendo utilizado para identificar e autenticar a ligacao.
+ [271582]SIPCall - Media Gateway=[0x9] alocado com sucesso para elemento=[tI27f]                .
+ [271582]SIPCall - Media Gateway=[0x4] alocado com sucesso para elemento=[8600].
+ [271582]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino                 [35998600].
+ [272121]SIPCall - Alarme VoIP tipo [NoAlarm (able)] no provedor [5130834004#].
+ [274301]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [274301]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [274301]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up]. Handle=[0x2e]
+ [274302]SIPCall - Media Gateway=[0x4] liberado com sucesso. Ocupante=[8600].
+ [274302]SIPCall - Media Gateway=[0x9] liberado com sucesso. Ocupante=[tI27f].
+ [274302]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [274302]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [274302]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [274302]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [274302]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [274302]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [279697]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1027)
+ [279697]SIPCall - Autorizacao requer senha. (hnd=1027)
+ [279709]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [279709]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTERNO.
+ [279709]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. HandleTemp=[0x1028]
+ [279709]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[0x1028]
+ [279709]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema, com destino=[035998600]. Handle=[0x2e]
+ [280199]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor esta sendo utilizado para identificar e autenticar a ligacao.
+ [280199]SIPCall - Media Gateway=[0x7] alocado com sucesso para elemento=[tI27f].
+ [280199]SIPCall - Media Gateway=[0x3] alocado com sucesso para elemento=[8600].
+ [280199]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino [35998600].
+ [282932]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [282932]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [282932]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up]. Handle=[0x2e]
+ [282932]SIPCall - Media Gateway=[0x3] liberado com sucesso. Ocupante=[8600].
+ [282932]SIPCall - Media Gateway=[0x7] liberado com sucesso. Ocupante=[tI27f].
+ [282933]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [282933]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [282933]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [282933]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [282933]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [282933]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [294500]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1029)
+ [294500]SIPCall - Autorizacao requer senha. (hnd=1029)
+ [294513]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [294513]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTERNO.
+ [294513]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. HandleTemp=[0x102a]
+ [294513]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[0x102a]
+ [294513]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema, com destino=[035998600]. Handle=[0x2e]
+ [295003]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor esta sendo utilizado para identificar e autenticar a ligacao.
+ [295004]SIPCall - Media Gateway=[0x2] alocado com sucesso para elemento=[tI27f].
+ [295004]SIPCall - Media Gateway=[0x5] alocado com sucesso para elemento=[8600].
+ [295004]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino [35998600].
+ [295611]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [295611]SIPCall - Media Gateway=[0x2] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [295611]SIPCall - IP=[10.152.0.199] -
+ [295611]SIPCall - Porta=[52590] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [295611]SIPCall - Canal de media gateway=[0x2] ativado com sucesso. Handle=[0x27f]
+ [295611]SIPCall - Pre-atendimento remoto da ligacao com 183 no Handle=[0x27f]
+ [295611]SIPCall - Tronco IP=[tI27f] recebe pre-atendimento remoto da ligacao.
+ [295611]SIPCall - Ligacao encaminhada com sucesso para [tI27f]
+ [295611]SIPCall - Ramal IP confirma encaminhamento de ligacao de entrada (CALL_PROCESSING). Handle=[0x2e]
+ [295612]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x2]. Handle=[0x2e]
+ [295612]SIPCall - Ramal IP em pre-atendimento com media gateway com 183 (CALL_ANSWER). Handle=[0x2e]
+ [295612]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [295613]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [295613]SIPCall - Media Gateway=[0x5] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [295613]SIPCall - IP=[172.16.0.58] -
+ [295613]SIPCall - Porta=[40016] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [295613]SIPCall - Canal de media gateway=[0x5] ativado com sucesso. Handle=[0x2e]
+ [296067]SIPCall - Tronco IP=[tI27f] recebeu atendimento remoto da ligacao.
+ [296067]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x3]. Handle=[0x2e]
+ [296067]SIPCall - Ramal IP estabelece fluxo via media gateway (CALL_ANSWER). Handle=[0x2e]
+ [296068]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [296068]SIPCall - Media gateway=[0x5] suspenso. Ocupante=[8600].
+ [296068]SIPCall - Media Gateway=[0x5] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [296068]SIPCall - IP=[172.16.0.58] -
+ [296068]SIPCall - Porta=[40016] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [296068]SIPCall - Canal de media gateway=[0x5] ativado com sucesso. Handle=[0x2e]
+ [296068]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [297241]SIPCall - Paralizacao de canal de voz. Handle=[0x2e]
+ [297241]SIPCall - Canal de media gateway=[0x5] no Handle=[0x2e] FECHADO.
+ [297241]SIPCall - Media Gateway=[0x5] liberado com sucesso. Ocupante=[8600].
+ [297241]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [297241]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [297241]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up]. Handle=[0x2e]
+ [297374]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [297374]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [297374]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [297374]SIPCall - Media Gateway=[0x2] liberado com sucesso. Ocupante=[tI27f].
+ [297374]SIPCall - Canal de media gateway=[0x27f] no Handle=[0x0] FECHADO
+ [297374]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [298645]SIPCall - Ligacao de entrada de [sip:51992323108@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060], solicita autorizacao.(hnd=102b)
+ [298645]SIPCall - Solicitante processado como externo. Ligacao aceita pelo perfil do provedor 1. (hnd=102b)
+ [298645]SIPCall - Ligacao de entrada identificada de [sip:51992323108@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060]
+ [298645]SIPCall - Ligacao de entrada nao reconhecida pelo dominio como personalidade: Tratada como ACESSO GENERICO via FILTRO VoIP
+ [298646]SIPCall - Ligacao de entrada considerada EXTERNA. Criando tronco voip... HandleTemp=[0x102c]
+ [298646]SIPCall - Tronco=[0x27f] voip criado para ligacao de entrada associado ao provedor=[1]. Codec=[8]. HandleTemp=[0x102c]
+ [298646]SIPCall - Ligacao de entrada do tronco=[tI27f] encaminhada para o destino=[sip:5130834004@10.153.2.202:5060]. Handle=[0x102c]
+ [298646]SIPCall - Tronco IP=[tI27f] recebeu ligacao de [sip:51992323108@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060].
+ [298646]SIPCall - Media Gateway=[0x0] alocado com sucesso para elemento=[tI27f].
+ [298646]SIPCall - Sistema confirma prompt para tronco IP=[tI27f] - Discando=[4004].
+ [298646]SIPCall - Tronco IP=[tI27f] envia confirmacao de encaminhamento de ligacao de entrada.
+ [298646]SIPCall - Houve prosseguimento da chamada de entrada a partir do ID 0x27f. Qualquer alerta a partir de seu IP de origem foi baixado.
+ [298870]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [298870]SIPCall - Tronco IP=[tI27f] comanda atendimento com media gateway para frente.
+ [298871]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [298871]SIPCall - Media Gateway=[0x0] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [298871]SIPCall - IP=[10.152.216.8] -
+ [298871]SIPCall - Porta=[58024] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [298871]SIPCall - Canal de media gateway=[0x0] ativado com sucesso. Handle=[0x27f]
+ [299552]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [299552]SIPCall - Canal de media gateway=[0x0] no Handle=[0x27f] FECHADO.
+ [299552]SIPCall - Media Gateway=[0x0] liberado com sucesso. Ocupante=[tI27f].
+ [299552]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x27f]
+ [299552]SIPCall - Tronco IP=[tI27f] recebeu desligamento remoto.
+ [299552]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [299552]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [301198]SIPCall - Ligacao de entrada de [sip:51992323108@10.150.66.16:5060] para [sip:5130834003@10.153.2.202:5060], solicita autorizacao.(hnd=102d)
+ [301198]SIPCall - Solicitante processado como externo. Ligacao aceita pelo perfil do provedor 1. (hnd=102d)
+ [301199]SIPCall - Ligacao de entrada identificada de [sip:51992323108@10.150.66.16:5060] para [sip:5130834003@10.153.2.202:5060]
+ [301199]SIPCall - Ligacao de entrada nao reconhecida pelo dominio como personalidade: Tratada como ACESSO GENERICO via FILTRO VoIP
+ [301199]SIPCall - Ligacao de entrada considerada EXTERNA. Criando tronco voip... HandleTemp=[0x102e]
+ [301199]SIPCall - Tronco=[0x27f] voip criado para ligacao de entrada associado ao provedor=[1]. Codec=[8]. HandleTemp=[0x102e]
+ [301199]SIPCall - Ligacao de entrada do tronco=[tI27f] encaminhada para o destino=[sip:5130834003@10.153.2.202:5060]. Handle=[0x102e]
+ [301199]SIPCall - Tronco IP=[tI27f] recebeu ligacao de [sip:51992323108@10.150.66.16:5060] para [sip:5130834003@10.153.2.202:5060].
+ [301199]SIPCall - Media Gateway=[0xf] alocado com sucesso para elemento=[tI27f].
+ [301199]SIPCall - Sistema confirma prompt para tronco IP=[tI27f] - Discando=[4003].
+ [301199]SIPCall - Tronco IP=[tI27f] envia confirmacao de encaminhamento de ligacao de entrada.
+ [301199]SIPCall - Houve prosseguimento da chamada de entrada a partir do ID 0x27f. Qualquer alerta a partir de seu IP de origem foi baixado.
+ [301376]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [301376]SIPCall - Tronco IP=[tI27f] comanda atendimento com media gateway para frente.
+ [301377]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [301377]SIPCall - Media Gateway=[0xf] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [301377]SIPCall - IP=[10.152.216.6] -
+ [301377]SIPCall - Porta=[37612] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [301377]SIPCall - Canal de media gateway=[0xf] ativado com sucesso. Handle=[0x27f]
+ [302386]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [302386]SIPCall - Canal de media gateway=[0xf] no Handle=[0x27f] FECHADO.
+ [302387]SIPCall - Media Gateway=[0xf] liberado com sucesso. Ocupante=[tI27f].
+ [302387]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x27f]
+ [302387]SIPCall - Tronco IP=[tI27f] recebeu desligamento remoto.
+ [302387]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [302387]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [303434]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor esta sendo utilizado para identificar e autenticar a ligacao.
+ [303434]SIPCall - Media Gateway=[0xe] alocado com sucesso para elemento=[tI27f].
+ [303434]SIPCall - Chamada de saida de [200] para provedor SIP [1] com destino [0155432852600].
+ [303941]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [303941]SIPCall - Media Gateway=[0xe] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [303941]SIPCall - IP=[10.142.220.5] -
+ [303941]SIPCall - Porta=[46820] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [303941]SIPCall - Canal de media gateway=[0xe] ativado com sucesso. Handle=[0x27f]
+ [303941]SIPCall - Pre-atendimento remoto da ligacao com 183 no Handle=[0x27f]
+ [303941]SIPCall - Tronco IP=[tI27f] recebe pre-atendimento remoto da ligacao.
+ [303941]SIPCall - Ligacao encaminhada com sucesso para [tI27f]
+ [303941]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [304999]SIPCall - Tronco IP=[tI27f] recebeu atendimento remoto da ligacao.
+ [304999]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [305480]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [305480]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [305480]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [305480]SIPCall - Media Gateway=[0xe] liberado com sucesso. Ocupante=[tI27f].
+ [305480]SIPCall - Canal de media gateway=[0x27f] no Handle=[0x0] FECHADO
+ [305480]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [322772]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=102f)
+ [322772]SIPCall - Autorizacao requer senha. (hnd=102f)
+ [322787]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [322787]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTERNO.
+ [322787]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. HandleTemp=[0x1030]
+ [322787]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[0x1030]
+ [322787]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema, com destino=[035998600]. Handle=[0x2e]
+ [323281]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor esta sendo utilizado para identificar e autenticar a ligacao.
+ [323281]SIPCall - Media Gateway=[0x1] alocado com sucesso para elemento=[tI27f].
+ [323281]SIPCall - Media Gateway=[0xc] alocado com sucesso para elemento=[8600].
+ [323281]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino [35998600].
+ [323875]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [323875]SIPCall - Media Gateway=[0x1] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [323875]SIPCall - IP=[10.152.0.205] -
+ [323875]SIPCall - Porta=[56912] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [323875]SIPCall - Canal de media gateway=[0x1] ativado com sucesso. Handle=[0x27f]
+ [323875]SIPCall - Pre-atendimento remoto da ligacao com 183 no Handle=[0x27f]
+ [323875]SIPCall - Tronco IP=[tI27f] recebe pre-atendimento remoto da ligacao.
+ [323875]SIPCall - Ligacao encaminhada com sucesso para [tI27f]
+ [323875]SIPCall - Ramal IP confirma encaminhamento de ligacao de entrada (CALL_PROCESSING). Handle=[0x2e]
+ [323875]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x2]. Handle=[0x2e]
+ [323875]SIPCall - Ramal IP em pre-atendimento com media gateway com 183 (CALL_ANSWER). Handle=[0x2e]
+ [323876]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [323876]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [323876]SIPCall - Media Gateway=[0xc] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [323876]SIPCall - IP=[172.16.0.58] -
+ [323876]SIPCall - Porta=[40020] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [323876]SIPCall - Canal de media gateway=[0xc] ativado com sucesso. Handle=[0x2e]
+ [324314]SIPCall - Tronco IP=[tI27f] recebeu atendimento remoto da ligacao.
+ [324314]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x3]. Handle=[0x2e]
+ [324314]SIPCall - Ramal IP estabelece fluxo via media gateway (CALL_ANSWER). Handle=[0x2e]
+ [324315]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [324315]SIPCall - Media gateway=[0xc] suspenso. Ocupante=[8600].
+ [324315]SIPCall - Media Gateway=[0xc] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [324315]SIPCall - IP=[172.16.0.58] -
+ [324315]SIPCall - Porta=[40020] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [324315]SIPCall - Canal de media gateway=[0xc] ativado com sucesso. Handle=[0x2e]
+ [324315]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [325207]SIPCall - Paralizacao de canal de voz. Handle=[0x2e]
+ [325208]SIPCall - Canal de media gateway=[0xc] no Handle=[0x2e] FECHADO.
+ [325208]SIPCall - Media Gateway=[0xc] liberado com sucesso. Ocupante=[8600].
+ [325208]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [325208]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [325208]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up]. Handle=[0x2e]
+ [325343]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [325343]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [325344]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [325344]SIPCall - Media Gateway=[0x1] liberado com sucesso. Ocupante=[tI27f].
+ [325344]SIPCall - Canal de media gateway=[0x27f] no Handle=[0x0] FECHADO
+ [325344]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [333573]SIPCall - Ligacao de entrada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060], solicita autorizacao.(hnd=1031)
+ [333573]SIPCall - Autorizacao requer senha. (hnd=1031)
+ [333586]SIPCall - Ligacao de entrada identificada de ["William" <sip:8600@172.16.1.252:5060>] para [sip:035998600@172.16.1.252:5060]
+ [333586]SIPCall - Ligacao reconhecida pelo dominio como gerada de endpoint INTERNO.
+ [333586]SIPCall - Ligacao de entrada tem ramal interno [8600] como origem. HandleTemp=[0x1032]
+ [333586]SIPCall - Handle=[0x2e] adquirido para ligacao de entrada. HandleTemp=[0x1032]
+ [333586]SIPCall - Ligacao de entrada do ramal=[8600] encaminhada para o sistema, com destino=[035998600]. Handle=[0x2e]
+ [334076]SIPCall - O provedor SIP que atende a Rota 1 nao tem USUARIOS. O autor esta sendo utilizado para identificar e autenticar a ligacao.
+ [334076]SIPCall - Media Gateway=[0xd] alocado com sucesso para elemento=[tI27f].
+ [334076]SIPCall - Media Gateway=[0x8] alocado com sucesso para elemento=[8600].
+ [334076]SIPCall - Chamada de saida de [8600] para provedor SIP [1] com destino [35998600].
+ [334821]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [334821]SIPCall - Media Gateway=[0xd] ativado elemento=[tI27f] com parametros: TE=[101] PT=[8]
+ [334821]SIPCall - IP=[10.152.0.205] -
+ [334821]SIPCall - Porta=[54346] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [334821]SIPCall - Canal de media gateway=[0xd] ativado com sucesso. Handle=[0x27f]
+ [334821]SIPCall - Pre-atendimento remoto da ligacao com 183 no Handle=[0x27f]
+ [334821]SIPCall - Tronco IP=[tI27f] recebe pre-atendimento remoto da ligacao.
+ [334821]SIPCall - Ligacao encaminhada com sucesso para [tI27f]
+ [334821]SIPCall - Ramal IP confirma encaminhamento de ligacao de entrada (CALL_PROCESSING). Handle=[0x2e]
+ [334822]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x2]. Handle=[0x2e]
+ [334822]SIPCall - Ramal IP em pre-atendimento com media gateway com 183 (CALL_ANSWER). Handle=[0x2e]
+ [334822]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [334822]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [334822]SIPCall - Media Gateway=[0x8] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [334822]SIPCall - IP=[172.16.0.58] -
+ [334823]SIPCall - Porta=[40024] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [334823]SIPCall - Canal de media gateway=[0x8] ativado com sucesso. Handle=[0x2e]
+ [335470]SIPCall - Tronco IP=[tI27f] recebeu atendimento remoto da ligacao.
+ [335470]SIPCall - Sistema comanda conversacao para ramal IP. Estado=[0x3]. Handle=[0x2e]
+ [335470]SIPCall - Ramal IP estabelece fluxo via media gateway (CALL_ANSWER). Handle=[0x2e]
+ [335471]SIPCall - Abertura de canal de VOZ. Handle=[0x2e]
+ [335471]SIPCall - Media gateway=[0x8] suspenso. Ocupante=[8600].
+ [335471]SIPCall - Media Gateway=[0x8] ativado elemento=[8600] com parametros: TE=[0] PT=[8]
+ [335471]SIPCall - IP=[172.16.0.58] -
+ [335471]SIPCall - Porta=[40024] - Codec=[8] - TimeFrame=[2] - Opcoes=[0x84].
+ [335471]SIPCall - Canal de media gateway=[0x8] ativado com sucesso. Handle=[0x2e]
+ [335471]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [336983]SIPCall - Paralizacao de canal de voz. Handle=[0x2e]
+ [336983]SIPCall - Canal de media gateway=[0x8] no Handle=[0x2e] FECHADO.
+ [336983]SIPCall - Media Gateway=[0x8] liberado com sucesso. Ocupante=[8600].
+ [336983]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x2e]
+ [336983]SIPCall - Ramal IP recebe desligamento remoto. Handle=[0x2e]
+ [336983]SIPCall - Sistema comanda desligamento para ramal IP, motivo=[Hang up]. Handle=[0x2e]
+ [337117]SIPCall - Tronco IP=[tI27f] desligado em situacao terminal .
+ [337117]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [337118]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [337118]SIPCall - Media Gateway=[0xd] liberado com sucesso. Ocupante=[tI27f].
+ [337118]SIPCall - Canal de media gateway=[0x27f] no Handle=[0x0] FECHADO
+ [337118]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]

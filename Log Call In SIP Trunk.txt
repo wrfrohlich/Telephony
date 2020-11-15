@@ -1,0 +1,32 @@
+//-------------------  Log Call Out SIP Trunk  -------------------//
+//
+//	Name: Eng. William da Rosa Fröhlich
+//
+//---------------------------------------------------------------//
+
+ [352672]SIPCall - Ligacao de entrada de [sip:51997370314@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060], solicita autorizacao.(hnd=1037)
+ [352672]SIPCall - Solicitante processado como externo. Ligacao aceita pelo perfil do provedor 1. (hnd=1037)
+ [352672]SIPCall - Ligacao de entrada identificada de [sip:51997370314@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060]
+ [352672]SIPCall - Ligacao de entrada nao reconhecida pelo dominio como personalidade: Tratada como ACESSO GENERICO via FILTRO VoIP
+ [352673]SIPCall - Ligacao de entrada considerada EXTERNA. Criando tronco voip... HandleTemp=[0x1038]
+ [352673]SIPCall - Tronco=[0x27f] voip criado para ligacao de entrada associado ao provedor=[1]. Codec=[8]. HandleTemp=[0x1038]
+ [352673]SIPCall - Ligacao de entrada do tronco=[tI27f] encaminhada para o destino=[sip:5130834004@10.153.2.202:5060]. Handle=[0x1038]
+ [352673]SIPCall - Tronco IP=[tI27f] recebeu ligacao de [sip:51997370314@10.150.66.16:5060] para [sip:5130834004@10.153.2.202:5060].
+ [352673]SIPCall - Media Gateway=[0x6] alocado com sucesso para elemento=[tI27f].
+ [352673]SIPCall - Sistema confirma prompt para tronco IP=[tI27f] - Discando=[4004].
+ [352673]SIPCall - Tronco IP=[tI27f] envia confirmacao de encaminhamento de ligacao de entrada.
+ [352673]SIPCall - Houve prosseguimento da chamada de entrada a partir do ID 0x27f. Qualquer alerta a partir de seu IP de origem foi baixado.
+ [352898]SIPCall - Sistema comanda conversacao para tronco IP=[tI27f].
+ [352898]SIPCall - Tronco IP=[tI27f] comanda atendimento com media gateway para frente.
+ [352899]SIPCall - Abertura de canal de VOZ. Handle=[0x27f]
+ [352899]SIPCall - Media Gateway=[0x6] ativado elemento=[tI27f] com parametros: TE=[100] PT=[8]
+ [352899]SIPCall - IP=[10.166.251.70] -
+ [352899]SIPCall - Porta=[21850] - Codec=[8] - TimeFrame=[2] - Opcoes=[0xd4].
+ [352899]SIPCall - Canal de media gateway=[0x6] ativado com sucesso. Handle=[0x27f]
+ [353490]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]
+ [353490]SIPCall - Canal de media gateway=[0x6] no Handle=[0x27f] FECHADO.
+ [353490]SIPCall - Media Gateway=[0x6] liberado com sucesso. Ocupante=[tI27f].
+ [353490]SIPCall - Finalizacao de ligacao por iniciativa remota. Handle=[0x27f]
+ [353490]SIPCall - Tronco IP=[tI27f] recebeu desligamento remoto.
+ [353490]SIPCall - Sistema comanda desligamento para tronco IP=[tI27f], motivo=[Hang up].
+ [353490]SIPCall - Paralizacao de canal de voz. Handle=[0x27f]

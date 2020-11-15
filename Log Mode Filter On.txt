@@ -1,0 +1,83 @@
+//-------------------  Logs Mode Filter ON  -------------------//
+//
+//	Name: Eng. William da Rosa Fröhlich
+//
+//------------------------------------------------------------//
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6027].
+
+ Filtro Dinamico: Id_A: [254999299873] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [147984047458] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [111996933541] Alvo: [6014]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6014].
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6027].
+
+ Filtro Dinamico: Id_A: [15130144141] Alvo: [4145]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [4145].
+
+ Filtro Dinamico: Id_A: [15130144141] Alvo: [4145]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [4145].
+
+ Filtro Dinamico: Id_A: [15130144141] Alvo: [4145]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [4145].
+
+ Filtro Dinamico: Id_A: [15130141900] Alvo: [6033]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6033].
+
+ Filtro Dinamico: Id_A: [15532551620] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [111973762432] Alvo: [6014]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6014].
+
+ Filtro Dinamico: Id_A: [15135123400] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [251997370314] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6027].
+
+ Filtro Dinamico: Id_A: [155996059863] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [11134653030] Alvo: [6000]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6000].
+
+ Filtro Dinamico: Id_A: [251997370314] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6027].
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6027].
+
+ Filtro Dinamico: Id_A: [111996933541] Alvo: [6014]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6014].
+
+ Filtro Dinamico: Id_A: [15130144141] Alvo: [4145]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [4145].
+
+ Filtro Dinamico: Id_A: [15132074184] Alvo: [6030]
+ Filtro Dinamico: >>> Dyn Standard attitude: released as arrived, to [6030].
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.
+
+iltro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.
+
+[c:]ALARM >iltro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.
+
+ Filtro Dinamico: Id_A: [15135998632] Alvo: [6027]
+ Filtro Dinamico: >>> Dyn rule #8: blocked.

@@ -1,0 +1,42 @@
+---/ Criação personalidade de interligação /---
+
+Configuração Inicial -> Criação - Personalidades e Troncos -> Criação de Personalidades -> (Preencher campos) -> Criar -> Sair
+
+Configuração de Sistema -> Srviço sob Autorização -> Usuários de Interligação -> Incluir -> Personalidade Rastreadora: (nº ramal) -> ok -> Aplicar -> Sair
+
+
+---/ Criação provedor SIP /---
+
+Ligações Originadas -> Provedores SIP -> (Selecionar uma das opções) -> Configurações -> (Preencher campos: Nome - Domínio - Outbound Proxy - Enviar Número do Chamador) -> Aplicar
+
+Ligações Originadas -> Provedores SIP -> (Selecionar uma das opções) -> Usuários -> (Preencher campos: Personalidade Rastreadora - Usuário para Autenticação - Senha - Confirma Senha - Intervalo de Registro: 300 segundos - |x| Registrar neste provedor SIP - |x| Usuário de acesso múltiplo) - Ok - Aplicar
+
+Ligações Originadas -> Provedores SIP -> (Selecionar uma das opções) -> Máquina VoIP -> (Verificar Codecs) -> Aplicar -> Sair
+
+
+---/ Media Gateway /---
+
+Configuração de Slots -> Slots -> (Escolher slot que a media gateway) -> (Preencher campo: IP) -> Aplicar -> Sair
+
+
+---/ Roteamento /---
+
+Ligações Originadas -> Rotas e Regras de Discagem -> (Escolher campo) -> Rota -> Propriedades -> (Preencher campos: Nome - |x| Utilizar processamento de discagem) - Aplicar
+
+Ligações Originadas -> Rotas e Regras de Discagem -> (Escolher campo) -> Rota -> Participantes -> (Escolher provedor SIP criado anteriormente) -> Aplicar
+
+Ligações Originadas -> Rotas e Regras de Discagem -> (Escolher campo) -> Regras de Discagem -> (Preencher campos: Ao discar: ?t - SequÊncia de dígito: ?) -> Aplicar -> Sair
+
+
+---/ Tabela de Roteamento Privado /---
+
+Configuração de Sistema -> Plano de numeração -> Acessa tabela de roteamento privado x -> (Mudar campo: Alterar número para) -> Ok -> Aplicar -> Sair
+
+Ligações Originadas -> Tabela de Roteamento Privado -> (Escolher campo conforme escolhido no plano de numeração) -> Incluir -> Rota principal -> (Opção da rota criado para interligação) -> (Alterar nome) -> Aplicar -> Sair
+
+
+---/ Configuração para usar linha em outra central /---
+
+Ligações Originadas -> Tabela de Roteamento -> (Escolher campo) -> Rota Principal -> (Escolher rota de interligação) -> Aplicar -> Sair
+
+Ligações Originadas -> Rotas e Regras de Discagem -> (Escolher campo de interligação) -> Regras de Discagem -> Processamento -> (Preencher campos: Ao discar: ?t - Sequencia de Digitos: A?) -> Abreviações -> (No campo "A" preencher utilizando 0) -> Aplicar -> Sair

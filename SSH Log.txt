@@ -1,0 +1,95 @@
+//-------------------  SSH Logs  -------------------//
+//
+//	Name: Eng. William R. Fröhlich
+//
+//--------------------------------------------------//
+
+login as: digieng
+digieng@192.168.8.20's password:
+[~]$ su
+Password:
+[~]#
+[~]#
+[~]#
+[~]#
+[~]# ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=55 time=17.839 ms
+64 bytes from 8.8.8.8: seq=1 ttl=55 time=19.576 ms
+^C
+--- 8.8.8.8 ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 17.839/18.707/19.576 ms
+[~]#
+[~]#
+[~]#
+[~]#
+[~]# clear
+[~]# cli-powerpc
+Digistar XIP-500
+Command line interface
+Welcome user root!
+
+digistar>enable
+Enter the programming password: *********
+Wrong password!
+
+digistar>enable
+Enter the programming password: ********
+ You are using default programming password, THIS IS VERY DANGEROUS please consi                                                                                        der change it.
+
+digistar#
+digistar#
+digistar#configure terminal
+
+digistar(config)#debug sip loglevel 5
+
+digistar(config)#debug pbx loglevel 5
+
+digistar(config)#syslog local
+
+digistar(config)#
+digistar(config)#
+digistar(config)#
+Storing running-config in permanent area
+
+digistar#
+digistar#
+digistar#
+digistar#show log sp
+                  ^
+% Error in '^' marker
+
+digistar#show log sip
+Aug  5 11:02:23 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:24 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:24 sip: Request OPTIONS sip:187.103.244.49:5060 enviado para 187.103.244.49:5060
+Aug  5 11:02:24 sip: Falha ao decodificar pacote recebido
+Aug  5 11:02:25 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:27 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:28 sip: Request OPTIONS sip:187.103.244.49:5060 enviado para 187.103.244.49:5060
+Aug  5 11:02:28 sip: Falha ao decodificar pacote recebido
+Aug  5 11:02:31 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:32 sip: Request OPTIONS sip:187.103.244.49:5060 enviado para 187.103.244.49:5060
+Aug  5 11:02:32 sip: Falha ao decodificar pacote recebido
+Aug  5 11:02:35 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:36 sip: Request OPTIONS sip:187.103.244.49:5060 enviado para 187.103.244.49:5060
+Aug  5 11:02:36 sip: Falha ao decodificar pacote recebido
+Aug  5 11:02:39 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:40 sip: Request OPTIONS sip:187.103.244.49:5060 enviado para 187.103.244.49:5060
+Aug  5 11:02:40 sip: Falha ao decodificar pacote recebido
+Aug  5 11:02:43 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:47 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:51 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:02:55 sip: Request OPTIONS sip:187.103.248.220:5060 enviado para 187.103.248.220:5060
+Aug  5 11:03:08 sip: HORA 11:03:08
+^C
+digistar#
+Terminal closed due inactivity!!!
+
+[~]# cli-powerpc
+Digistar XIP-500
+Command line interface
+Welcome user root!
+
+digistar>show log sip

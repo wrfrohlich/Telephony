@@ -1,0 +1,156 @@
+//-------------------  SSH Commands  -------------------//
+//
+//	Name: Eng. William da Rosa Fröhlich
+//
+//------------------------------------------------------//
+
+
+login as: digistar
+
+digistar@192.168.0.246's password: digistar
+
+-> enable - Enter in privileged mode
+
+-> disable - Exits the privileged mode
+
+-> configure terminal - Enters configuration mode
+
+	-> banner           Change system's startup banner
+
+	-> ddns             Dynamic dns configuration -->
+
+	-> debug            Debug configurations
+
+		 -> pbx   	Configure pbx log level
+
+		 -> sip   	Configure sip log level
+
+
+	-> dmz              Demilitarized zone configuration
+
+	-> dns              Dns configuration
+
+	-> do               Run an exec command in config mode
+
+	-> enable           Modify enable password parameters
+
+	-> end              Exit from config mode
+
+	-> exit             exit from current configuration mode
+
+	-> firewall         Firewall configuration -->
+
+	-> hostname         Sets system network name
+
+	-> interface        Interface configuration
+
+	-> ip               Internet protocol configurations
+
+	-> napt             Napt configuration
+
+	-> natt             NAT transversal configuration
+
+	-> no               Negate a command, or set its defaults
+
+	-> pbx              PBX configuration -->
+
+		 -> boards        PBX board configuration -->
+
+		 -> digital-line  PBX digital line configuration -->
+
+		 -> do            Run an exec command in config mode
+
+		 -> end           Exit from config mode
+
+		 -> exit          exit from current configuration mode
+
+		 -> line-group    PBX line group configuration
+
+		 -> portability   Portability configurations and options
+
+		 -> show          Show PBX configurations
+
+		 -> trunk         PBX trunk configuration
+
+
+	-> qos              QoS configuration
+
+	-> radius           Radius configuration
+
+	-> service          Services configurations
+
+	-> session-timeout  Set interval for closing connection when there is no input traffic
+	
+	-> show             Show running config
+
+	-> sip              SIP configuration
+
+	-> snmp             SNMP configuration
+
+	-> syslog           Syslog configuration
+
+	-> time             Timing service configuration
+
+	-> upnp             Universal plug and play config
+
+	-> username         Establish User Name Authentication
+
+	-> vlan             Vlan configuration
+
+	-> vpn              Configure vpns
+
+-> ping - Sends ICMP echo
+
+-> firmware-upgrade - Firmware upgrade
+
+-> licence-download - Download licence file
+
+-> reboot - Reboots the system
+
+-> reset - Restore to default configuration
+
+-> show - Show the configurations
+
+	-> calendar        Display the hardware calendar
+
+	-> cpu             Show cpu statitics
+
+	-> firewall        Show firewall statistics and config elements
+
+	-> flash           Show flash memory statistics
+
+	-> history         Show the history of last commands
+
+	-> licences        Show PBX installed licences
+
+	-> log             Show logging information
+
+		-> sip		Show sip informarion
+
+	-> memory          Show memory statistics
+
+	-> nat             Show nat status and configurations
+
+	-> network         Show network statistics and config elements
+
+	-> pbx             Show PBX information
+
+	-> processes       Show active processes running
+
+	-> running-config  Show current running configurations
+
+	-> sd              Show SD memory status and statistics
+
+	-> startup-config  Show the configurations that are stored in permanent memory
+
+	-> tech-support    Show current running configurations, hiding the passwords
+
+	-> terminal        Show terminal configurations
+
+	-> versions        Show image versions
+
+	-> vlan            Show list of known vlans
+
+	-> voip            Show voip statistics and config elements
+
+	-> vpn             Show VPN configs and statistics
